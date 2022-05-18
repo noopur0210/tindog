@@ -13,6 +13,12 @@ h1{
     line-height: 1.5;
 }
 
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
 h3{
     font-family: 'Montserrat', sans-serif;
@@ -65,7 +71,7 @@ p{
 /* Feature Section */
 
 #features{
-    padding: 5%;
+    padding: 7% 10%;
 }
 
 .feature-box{
@@ -74,10 +80,82 @@ p{
 
 .features-icon{
     color: #ef8172;
-    margin: 10%;
+    margin-bottom: 1.5rem;
 }
 
 .features-icon:hover{
     color: #ff4c68;
-    margin: 10%;
+}
+
+
+/* Testimonials Section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press{
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3%;
+}
+
+/* CTA Section */
+
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.cta-btn{
+    margin: 5% 2% 0;
+}
+
+/* Footer */
+
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.footer-icon{
+    margin: 1%;
+}
+
+.footer-p{
+    margin: 1% 0 0;
+    font-weight: 300;
 }
